@@ -19,3 +19,17 @@ patterns.. However, the actual significance of an Itemset
 cannot be easily recognized if we do not consider some of
 the aspects like quantity and profit per each item.. The
 problem of Profitable Itemset mining is to find the complete
+set of Itemsets satisfying a minimum profit constraint in the
+database. When we are calculating the Profitable Itemsets
+we can consider minimum weight as constraint and we can
+ignore the support as our goal is to find the Profitable
+patterns. In the real world, there several applications where
+specific patterns and items have more importance or priority
+than the other patterns. Profitable Itemset mining has been
+suggested to find Profitable patterns by considering the
+profits as well as quantity of Items. The concept of Profitable
+Itemset mining is attractive in that profitable patterns are
+discovered. We can use the term, Profitable Itemset to
+represent a set of profitable items. The Itemsets we get are
+frequent profitable itemsets as well as infrequent profitable
+itemsets.
