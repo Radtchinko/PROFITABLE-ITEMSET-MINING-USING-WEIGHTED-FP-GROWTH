@@ -101,4 +101,4 @@ quantities and profits per items in a transaction.**
 ## 2.1 ALGORITHM
 ![](https://drive.google.com/file/d/1Cah0KD7LpsevD_r1DaSDvUDRcL1ih5RH/view?usp=sharing)
 
-1[](https://drive.google.com/file/d/1KmvVLCUuzQZQRISBE2Nj7lZFviMty1vW/view?usp=sharing)
+![](https://drive.google.com/file/d/1KmvVLCUuzQZQRISBE2Nj7lZFviMty1vW/view?usp=sharing)
