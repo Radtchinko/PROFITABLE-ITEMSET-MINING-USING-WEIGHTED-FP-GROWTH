@@ -33,8 +33,8 @@ discovered. We can use the term, Profitable Itemset to\
 represent a set of profitable items. The Itemsets we get are\
 frequent profitable itemsets as well as infrequent profitable\
 itemsets.**
-
-\
+ 
+ 
 ## 1.1 BASIC CONCEPTS
 **Itemset mining helps us to find the frequent patterns or\
 itemsets . The two most widely used algorithms are Apriori\
@@ -64,8 +64,8 @@ transaction T4, but the amount of profit gained by selling a\
 chocolate (Say Dairy milk) is 10 times that of a Bun. So, the\
 profit is also given priority represented by p. “p” may\
 represent the retail price / profit per unit of an item.**
-
-\
+ 
+ 
 ## 1.2 PROBLEM DEFINITION
 **In this paper taking into account the profit / intensity of the\
 item and the quantity of each item in each transaction of the\
@@ -85,16 +85,16 @@ The ith transaction of the database D is of the form\
 Ti={wir,....}\
 r represents item number,\
 w = q*p.**
-
-\
+ 
+ 
 ## 2 PROFITABLE FP GROWTH
 **Profitable FP-Growth algorithm is based on FP-Growth\
 algorithm in data mining. Generally FP-Growth algorithm is\
 binary in nature. It doesn’t consider quantity and weight per\
 unit in a transaction. So In our algorithm we consider\
 quantities and profits per items in a transaction.**
-
-\
+ 
+ 
 ## 2.1 ALGORITHM
 ![Step 1](https://github.com/Radtchinko/PROFITABLE-ITEMSET-MINING-USING-WEIGHTED-FP-GROWTH/blob/master/Step1.png)
 
