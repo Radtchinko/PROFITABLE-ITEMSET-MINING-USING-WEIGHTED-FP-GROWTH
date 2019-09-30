@@ -33,3 +33,34 @@ discovered. We can use the term, Profitable Itemset to
 represent a set of profitable items. The Itemsets we get are
 frequent profitable itemsets as well as infrequent profitable
 itemsets.
+
+
+1.1 BASIC CONCEPTS
+Itemset mining helps us to find the frequent patterns or
+itemsets . The two most widely used algorithms are Apriori
+and FP Growth. These two algorithms are binary in nature.
+They concerned about whether the product is sold or not.
+The measures considered by these algorithms are support
+and confidence. But in reality they are not sufficient for
+decision making in the large organizations. So In this
+framework we consider two measures named Quantity and
+Profit. By using both the parameters we calculate Weight.
+Consider the following two transactions:
+T1: {20 Buns, 5 Chocolates}
+T2: {1 Bun, 1 Chocolate}
+In the support-confidence frame work the above two
+transactions are considered to be the same, since the
+quantity of an item is not taken into account. But in reality, it
+is quite clear that the transaction T1 gives more profit than
+the transaction T2. Thus to make efficient marketing we take
+in to account the quantity of each item in each transaction. In
+addition we also consider the intensity of each item, which is
+represented using profit per item p.
+Consider the following two transactions:
+T3: {10 Buns, 1 Chocolate}
+T4: {2 Buns, 3 Chocolates}
+In reality the quantity sold in transaction T3 is greater than
+transaction T4, but the amount of profit gained by selling a
+chocolate (Say Dairy milk) is 10 times that of a Bun. So, the
+profit is also given priority represented by p. “p” may
+represent the retail price / profit per unit of an item.
