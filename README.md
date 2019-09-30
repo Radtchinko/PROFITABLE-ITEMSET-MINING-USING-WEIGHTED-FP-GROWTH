@@ -96,6 +96,6 @@ quantities and profits per items in a transaction.**
 
 \
 ## 2.1 ALGORITHM
-![](https://github.com/Radtchinko/PROFITABLE-ITEMSET-MINING-USING-WEIGHTED-FP-GROWTH/blob/master/Step1.png)
-\
-![](https://github.com/Radtchinko/PROFITABLE-ITEMSET-MINING-USING-WEIGHTED-FP-GROWTH/blob/master/Step2.png)
+![Step 1](https://github.com/Radtchinko/PROFITABLE-ITEMSET-MINING-USING-WEIGHTED-FP-GROWTH/blob/master/Step1.png)
+
+![Step 2](https://github.com/Radtchinko/PROFITABLE-ITEMSET-MINING-USING-WEIGHTED-FP-GROWTH/blob/master/Step2.png)
