@@ -33,8 +33,8 @@ discovered. We can use the term, Profitable Itemset to\
 represent a set of profitable items. The Itemsets we get are\
 frequent profitable itemsets as well as infrequent profitable\
 itemsets.**
- 
- 
+ \
+ \
 ## 1.1 BASIC CONCEPTS
 **Itemset mining helps us to find the frequent patterns or\
 itemsets . The two most widely used algorithms are Apriori\
