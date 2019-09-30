@@ -1,6 +1,6 @@
 # PROFITABLE-ITEMSET-MINING-USING-WEIGHTED-FP-GROWTH
 ## 1. INTRODUCTION
-Mining frequent patterns or Itemsets is an important issue in
+***Mining frequent patterns or Itemsets is an important issue in
 the field of data mining due to its wide applications.
 Traditional Itemset mining is, however, done based on
 parameters like support and confidence. The most widely
@@ -32,11 +32,11 @@ Itemset mining is attractive in that profitable patterns are
 discovered. We can use the term, Profitable Itemset to
 represent a set of profitable items. The Itemsets we get are
 frequent profitable itemsets as well as infrequent profitable
-itemsets.
+itemsets.***
 
 
-1.1 BASIC CONCEPTS
-Itemset mining helps us to find the frequent patterns or
+## 1.1 BASIC CONCEPTS
+***Itemset mining helps us to find the frequent patterns or
 itemsets . The two most widely used algorithms are Apriori
 and FP Growth. These two algorithms are binary in nature.
 They concerned about whether the product is sold or not.
@@ -63,4 +63,25 @@ In reality the quantity sold in transaction T3 is greater than
 transaction T4, but the amount of profit gained by selling a
 chocolate (Say Dairy milk) is 10 times that of a Bun. So, the
 profit is also given priority represented by p. “p” may
-represent the retail price / profit per unit of an item.
+represent the retail price / profit per unit of an item.***
+
+
+## 1.2 PROBLEM DEFINITION
+***In this paper taking into account the profit / intensity of the
+item and the quantity of each item in each transaction of the
+given database, we propose two algorithms Profitable
+Apriori and Profitable FP Growth. These algorithms take into
+account two parameters Quantity and Profit. In this by
+incorporating the profit per item and quantity we generate
+Profitable Apriori and Profitable FP Growth. In this paper,
+the notations corresponding to the new structure is given
+below.
+Universal Itemset = I\n
+I = { i1 :q1*p1 , i2 : q2*p2 , . . . , im :qm* pm } ,\n
+{ i1 , i2 , . . . , im } represents the items purchased,\n
+{q1,q2,q3.....qm} represents quantity of purchase,\n
+{p1,p2,p3.....pm} represents their respective profits.\n
+The ith transaction of the database D is of the form\n
+Ti={wir,....}\n
+r represents item number,\n
+w = q*p.***
